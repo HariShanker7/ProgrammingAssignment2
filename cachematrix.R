@@ -1,6 +1,6 @@
-## Calculating inverse of a matrix and storing it as cache. If the same matrix is inputted, then the
+## Aim- Calculating inverse of a matrix and storing it as cache. If the same matrix is inputted, then the
 ##cached result will be the output.
-## To generate the special matrix list
+## Function 1 = To generate a special matrix list
 
 makeCacheMatrix <- function(x = matrix()) {
   inv <- NULL
@@ -24,7 +24,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## The output i.e. inverse of matrix inputted
+## Function 2 = Gives you inverse of the matrix inputted in the special matrix list.
 
 cacheSolve <- function(x, ...) {
   inv <- x$getinverse()
